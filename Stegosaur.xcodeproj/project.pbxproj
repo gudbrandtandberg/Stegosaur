@@ -15,6 +15,7 @@
 		42BB0F211CD413A700D9BDAF /* largemessage.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42BB0F1F1CD412CB00D9BDAF /* largemessage.txt */; };
 		42BB0F221CD413A700D9BDAF /* earth.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42BB0F201CD412D500D9BDAF /* earth.bmp */; };
 		42BB0F251CD4331500D9BDAF /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0F241CD4331500D9BDAF /* Makefile */; };
+		42BB0F2E1CD43B5800D9BDAF /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0F2D1CD43B5800D9BDAF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,8 +46,8 @@
 		42BB0F1F1CD412CB00D9BDAF /* largemessage.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = largemessage.txt; sourceTree = "<group>"; };
 		42BB0F201CD412D500D9BDAF /* earth.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = earth.bmp; sourceTree = "<group>"; };
 		42BB0F241CD4331500D9BDAF /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = Stegosaur/Makefile; sourceTree = "<group>"; };
-		42BB0F2A1CD4375700D9BDAF /* earth.steg.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = earth.steg.bmp; path = Stegosaur/earth.steg.bmp; sourceTree = "<group>"; };
-		42BB0F2B1CD4378500D9BDAF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Stegosaur/README.md; sourceTree = "<group>"; };
+		42BB0F2C1CD43B4F00D9BDAF /* earth.steg.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = earth.steg.bmp; sourceTree = "<group>"; };
+		42BB0F2D1CD43B5800D9BDAF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +112,9 @@
 		42BB0F271CD4333800D9BDAF /* Extra */ = {
 			isa = PBXGroup;
 			children = (
-				42BB0F2B1CD4378500D9BDAF /* README.md */,
 				42BB0F241CD4331500D9BDAF /* Makefile */,
-				42BB0F2A1CD4375700D9BDAF /* earth.steg.bmp */,
+				42BB0F2D1CD43B5800D9BDAF /* README.md */,
+				42BB0F2C1CD43B4F00D9BDAF /* earth.steg.bmp */,
 			);
 			name = Extra;
 			path = ..;
@@ -177,6 +178,7 @@
 			files = (
 				42BB0F251CD4331500D9BDAF /* Makefile in Sources */,
 				42BB0F151CD191F400D9BDAF /* Steg.cpp in Sources */,
+				42BB0F2E1CD43B5800D9BDAF /* README.md in Sources */,
 				42BB0F1B1CD4129500D9BDAF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

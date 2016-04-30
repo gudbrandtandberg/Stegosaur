@@ -5,7 +5,7 @@
 Stegosaur is a command line tool for hiding and extracting messages in images.
 Stegosaur uses a plain least-significant-bit steganographic technique to hide 
 messages in bitmap images. *Note:* **Stegosaur is NOT encryption!** - the messages
-you hide are hidden to the human eye, and anyone who suspects a message to be 
+you hide are hidden to the human eye, but anyone who suspects a message to be 
 hidden in the image could easily extract it.
 
 ##Example
