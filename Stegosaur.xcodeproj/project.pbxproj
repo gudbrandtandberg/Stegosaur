@@ -7,24 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42BB0F0A1CD1910A00D9BDAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0F091CD1910A00D9BDAF /* main.cpp */; };
+		42BB0F151CD191F400D9BDAF /* Steg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0F131CD191F400D9BDAF /* Steg.cpp */; };
+		42BB0F161CD193CB00D9BDAF /* ex.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42BB0F101CD1914100D9BDAF /* ex.bmp */; };
+		42BB0F171CD2CB3600D9BDAF /* jupiter.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42BB0F111CD1914100D9BDAF /* jupiter.bmp */; };
+		42BB0F191CD2ED9900D9BDAF /* message.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42BB0F181CD2ED7400D9BDAF /* message.txt */; };
+		42BB0F1B1CD4129500D9BDAF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0F1A1CD4129500D9BDAF /* main.cpp */; };
+		42BB0F211CD413A700D9BDAF /* largemessage.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42BB0F1F1CD412CB00D9BDAF /* largemessage.txt */; };
+		42BB0F221CD413A700D9BDAF /* earth.bmp in CopyFiles */ = {isa = PBXBuildFile; fileRef = 42BB0F201CD412D500D9BDAF /* earth.bmp */; };
+		42BB0F251CD4331500D9BDAF /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0F241CD4331500D9BDAF /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		42BB0F041CD1910A00D9BDAF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
+				42BB0F211CD413A700D9BDAF /* largemessage.txt in CopyFiles */,
+				42BB0F221CD413A700D9BDAF /* earth.bmp in CopyFiles */,
+				42BB0F191CD2ED9900D9BDAF /* message.txt in CopyFiles */,
+				42BB0F171CD2CB3600D9BDAF /* jupiter.bmp in CopyFiles */,
+				42BB0F161CD193CB00D9BDAF /* ex.bmp in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		42BB0F061CD1910A00D9BDAF /* Stegosaur */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stegosaur; sourceTree = BUILT_PRODUCTS_DIR; };
-		42BB0F091CD1910A00D9BDAF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		42BB0F101CD1914100D9BDAF /* ex.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = ex.bmp; sourceTree = "<group>"; };
+		42BB0F111CD1914100D9BDAF /* jupiter.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = jupiter.bmp; sourceTree = "<group>"; };
+		42BB0F131CD191F400D9BDAF /* Steg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Steg.cpp; sourceTree = "<group>"; };
+		42BB0F141CD191F400D9BDAF /* Steg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Steg.h; sourceTree = "<group>"; };
+		42BB0F181CD2ED7400D9BDAF /* message.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = message.txt; sourceTree = "<group>"; };
+		42BB0F1A1CD4129500D9BDAF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		42BB0F1F1CD412CB00D9BDAF /* largemessage.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = largemessage.txt; sourceTree = "<group>"; };
+		42BB0F201CD412D500D9BDAF /* earth.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = earth.bmp; sourceTree = "<group>"; };
+		42BB0F241CD4331500D9BDAF /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = Stegosaur/Makefile; sourceTree = "<group>"; };
+		42BB0F2A1CD4375700D9BDAF /* earth.steg.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = earth.steg.bmp; path = Stegosaur/earth.steg.bmp; sourceTree = "<group>"; };
+		42BB0F2B1CD4378500D9BDAF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = Stegosaur/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +79,44 @@
 		42BB0F081CD1910A00D9BDAF /* Stegosaur */ = {
 			isa = PBXGroup;
 			children = (
-				42BB0F091CD1910A00D9BDAF /* main.cpp */,
+				42BB0F1A1CD4129500D9BDAF /* main.cpp */,
+				42BB0F141CD191F400D9BDAF /* Steg.h */,
+				42BB0F131CD191F400D9BDAF /* Steg.cpp */,
+				42BB0F231CD4165B00D9BDAF /* Messages */,
+				42BB0F121CD1914800D9BDAF /* Bitmaps */,
+				42BB0F271CD4333800D9BDAF /* Extra */,
 			);
 			path = Stegosaur;
+			sourceTree = "<group>";
+		};
+		42BB0F121CD1914800D9BDAF /* Bitmaps */ = {
+			isa = PBXGroup;
+			children = (
+				42BB0F101CD1914100D9BDAF /* ex.bmp */,
+				42BB0F201CD412D500D9BDAF /* earth.bmp */,
+				42BB0F111CD1914100D9BDAF /* jupiter.bmp */,
+			);
+			name = Bitmaps;
+			sourceTree = "<group>";
+		};
+		42BB0F231CD4165B00D9BDAF /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				42BB0F181CD2ED7400D9BDAF /* message.txt */,
+				42BB0F1F1CD412CB00D9BDAF /* largemessage.txt */,
+			);
+			name = Messages;
+			sourceTree = "<group>";
+		};
+		42BB0F271CD4333800D9BDAF /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				42BB0F2B1CD4378500D9BDAF /* README.md */,
+				42BB0F241CD4331500D9BDAF /* Makefile */,
+				42BB0F2A1CD4375700D9BDAF /* earth.steg.bmp */,
+			);
+			name = Extra;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BB0F0A1CD1910A00D9BDAF /* main.cpp in Sources */,
+				42BB0F251CD4331500D9BDAF /* Makefile in Sources */,
+				42BB0F151CD191F400D9BDAF /* Steg.cpp in Sources */,
+				42BB0F1B1CD4129500D9BDAF /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +291,7 @@
 				42BB0F0F1CD1910A00D9BDAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
